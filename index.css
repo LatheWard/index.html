@@ -19,6 +19,12 @@ body {
         margin: 0 auto 60px auto;
     }
 
+    img {
+        max-width: 100%;
+        display: block;
+        height: auto;
+        margin: 0 auto;
+    }
 
     #title-image {
         display: block;

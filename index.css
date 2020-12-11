@@ -4,7 +4,9 @@ body {
   background: #4e3014;
 }
 
-@media screen and (min-width: 700px) {
+
+/* Laptops */
+@media screen and (min-width: 800px) {
   .container {
     display: flex;
     flex-direction: column;
@@ -37,7 +39,9 @@ body {
     margin: 0 auto;
   }
 }
-@media (max-width: 600px) {
+
+/* Tablets */
+@media (max-width: 700px) {
   .container {
     display: flex;
     flex-direction: column;
@@ -71,7 +75,9 @@ body {
   }
 }
 
-@media screen and (max-width: 400px) {
+
+/* mobile */
+@media screen and (max-width: 480px) {
   body {
     color: #4e3014;
     background: rgb(116, 241, 194);

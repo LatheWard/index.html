@@ -44,12 +44,14 @@ img {
       margin: auto;
       width: 200px;
       height: 150px;
-      
+      border: thin;
+
   }
 
   .img-container {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    border: thin;
   }
 }

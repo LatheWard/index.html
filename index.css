@@ -33,7 +33,7 @@ body {
 
   .img-item {
     display: flex;
-    max-width: 600px;
+    max-width: 300px;
     display: block;
     height: auto;
     margin: 0 auto;
@@ -68,7 +68,7 @@ body {
 
   .img-item {
     display: flex;
-    max-width: 500px;
+    max-width: 400px;
     height: auto;
     margin: 0 auto;
   }
@@ -108,7 +108,7 @@ body {
 
   .img-item {
     display: flex;
-    max-width: 300px;
+    max-width: 260px;
     height: auto;
     margin: 0 auto;
   }

@@ -21,12 +21,22 @@ body {
     margin: auto;
     font-size: 15px;
   max-width: 700px;
-  text-align: left;
-  margin: 0 auto 60px auto;
+  text-align: center;
+  
+  
+  }
+
+  .item > p {
+      font-size: 18px
+  }
+
+  .item > h1 {
+      font-size: 35px;
   }
 
   .img-container {
     display: flex;
+    max-width: 600px;
     flex-direction: column;
     flex-wrap: nowrap;
     border: thin;
@@ -43,5 +53,12 @@ body {
 }
 
 @media (max-width: 450px) {
+    .item > p {
+        font-size: 15px
+    }
+  
+    .item > h1 {
+        font-size: 33px;
+    }
 
 }

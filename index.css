@@ -31,14 +31,6 @@ body {
       font-size: 35px;
   }
 
-  .img-container {
-    display: flex;
-    max-width: 600px;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    border: thin;
-    justify-content: center;
-  }
 
   .img-item {
     display: flex;

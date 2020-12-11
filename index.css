@@ -41,10 +41,6 @@ body {
 }
 }
 @media(max-width: 600px) {
-    body {
-    color: #4e3014;
-  background:rgb(116, 241, 194);
-}
 
   .container {
     display: flex;
@@ -80,6 +76,12 @@ body {
 }
 
 @media screen and (max-width: 400px) {
+
+    body {
+        color: #4e3014;
+      background:rgb(116, 241, 194);
+    }
+    
   .container {
     display: flex;
     flex-direction: column;

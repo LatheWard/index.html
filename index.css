@@ -32,14 +32,24 @@ img {
   max-width: 100%;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
+@media (min-width: 600px) {
+  .container {
+    display: flex;
+    height: 300px
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 
-.img-container {
+  .item {
+      margin: auto;
+      width: 200px;
+      height: 150px;
+      
+  }
+
+  .img-container {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+  }
 }

@@ -6,7 +6,7 @@ body {
 
 
 /* Laptops */
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
   .container {
     display: flex;
     flex-direction: column;
@@ -68,8 +68,7 @@ body {
 
   .img-item {
     display: flex;
-    max-width: 600px;
-    display: block;
+    max-width: 500px;
     height: auto;
     margin: 0 auto;
   }
@@ -109,8 +108,7 @@ body {
 
   .img-item {
     display: flex;
-    max-width: 400px;
-    display: block;
+    max-width: 300px;
     height: auto;
     margin: 0 auto;
   }
